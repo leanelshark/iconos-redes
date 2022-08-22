@@ -6,6 +6,7 @@
 body{
     min-height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background: #181818;
@@ -21,7 +22,7 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    cursor:  pointer ;
 }
 .p-twitter::before{
     content: '';
